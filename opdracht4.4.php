@@ -10,8 +10,11 @@ if($laptop > 150)
 }
 elseif($software < 55)
 {
-  $som = $software * 1.1 ;
+  $som = $software * 1.11 ;
   echo $som ;
 }
-
+else{
+  $som = $software * 1.16;
+  echo $som ;
+}
 ?>
